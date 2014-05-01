@@ -29,11 +29,11 @@ Project Manager & Lead Programmer
 Graphic Design
 ==============
 
-Roger F. Gordon
-
-Senior Illustrator
-
-ManTech Corporate Design Solutions
+::
+  
+  Roger F. Gordon
+  Senior Illustrator
+  ManTech Corporate Design Solutions
 
 ===================================
 Forensic Script & Tool Contributors
