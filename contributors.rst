@@ -39,7 +39,7 @@ Graphic Design
 Forensic Script & Tool Contributors
 ===================================
 
-BulkExtractor
+`BulkExtractor <http://forensicswiki.org/wiki/Bulk_extractor>_`
 
 - Simson Garfinkel, Bruce Allen, Alex Eubanks, Luis E. Garcia II, Michael Shick
 
@@ -47,23 +47,23 @@ ENT – Calculat Entropy
 
 - John Walker, Wesley Landaker
 
-KML from JPG EXIF Data
+`KML from JPG EXIF Data <https://code.google.com/p/simplekml/>_`
 
 - Kyle Lancaster
 
-fdupes
+`fdupes <http://premium.caribe.net/~adrian2/fdupes.html>_`
 
 - Adrian Lopez – fdupes, Doug Koster
 
-EXIF Tool
+`EXIF Tool <http://sno.phy.queensu.ca/~phil/exiftool/>_`
 
 - Phil Harvey
 
-Foremost
+`Foremost <http://foremost.sourceforge.net/>_`
 
 - Kris Kendall, Jesse Kornblum, Nick Mikus
 
-Jumplist Parser
+`Jumplist Parser <http://windowsir.blogspot.com/>_`
 
 - Harlan Carvey
 
@@ -71,7 +71,7 @@ NTFS Arifact Extractor
 
 - Douglas Koster, Kevin Murphy
 
-Sleuth Kit tools
+`Sleuth Kit tools <http://www.sleuthkit.org/sleuthkit/>_`
 
 - Brian Carrier
 
@@ -79,14 +79,14 @@ Registry Hive Extractor (MantaRay)
 
 - Douglas Koster, Kevin Murphy
 
-Regripper
+`Regripper <https://code.google.com/p/regripper/>_`
 
 - Harlan Carvey
 
-Super Timeline
+`Super Timeline <http://plaso.kiddaland.net/>_`
 
 - Kristinn Guðjóns
 
-Volatility
+`Volatility <https://code.google.com/p/volatility/>_`
 
--Mike Auty, Andrew Case, Michael Cohen, Brendan Dolan-Gavitt, Jamie Levy, Michael Ligh
+-Mike Auty, Andrew Case, Michael Cohen, Brendan Dolan-Gavitt, Jamie Levy, Michael Ligh, AAron Walters
