@@ -5,22 +5,31 @@ ManTech Development Team
 Project Manager & Lead Programmer
 
 Doug Koster
+
 M.S. CS, MBA, A+, EnCE, PMP, GCFE, GCFA
+
 Senior Computer Forensic Analyst
+
 ManTech | Mission, Cyber & Intelligence Solutions Group
 
 Lead Computer Forensic Analyst & Contributing Programmer
 
 Kevin Murphy
+
 Senior Computer Forensic Analyst, A+, EnCE
+
 B.S., Computer and Digital Forensics
+
 ManTech | Mission, Cyber & Intelligence Solutions Group
 
 Contributing Programmer & Quality Assurance
 
 Chapin Bryce
+
 Senior Technical Intern, ACE
+
 B.S., Computer and Digital Forensics (April, 2015)
+
 ManTech | Mission, Cyber & Intelligence Solutions Group
 
 ==============
@@ -28,7 +37,9 @@ Graphic Design
 ==============
 
 Roger F. Gordon
+
 Senior Illustrator
+
 ManTech Corporate Design Solutions
 
 ===================================
