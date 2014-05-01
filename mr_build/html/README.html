@@ -1,0 +1,190 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>MantaRay Forensics &mdash; MantaRay 1.3.8 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.3.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="MantaRay 1.3.8 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="index.html">MantaRay 1.3.8 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="mantaray-forensics">
+<h1>MantaRay Forensics<a class="headerlink" href="#mantaray-forensics" title="Permalink to this headline">¶</a></h1>
+<p>ManTech Triage and Analysis System, Forensics Workflow Automation Suite</p>
+<div class="figure align-center">
+<img alt="alt tag" src="https://raw.githubusercontent.com/mantarayforensics/mantaray/master/usr/share/images/Mantaray_Logo_Template_Full_Screen.gif" />
+<p class="caption">alt tag</p>
+</div>
+</div>
+<div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>MantaRay is designed to automate the processing of forensic images,
+directories and individual files with open source tools. With support
+for numerous image formats, this tool provides a scalable base to
+utilize open source and custom exploitation tools.</p>
+<p>For more information about the suite, visit our website
+<a class="reference external" href="http://www.mantarayforensics.com">http://www.mantarayforensics.com</a></p>
+</div>
+<div class="section" id="dependencies">
+<h1>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h1>
+<p>See <a class="reference external" href="https://launchpad.net/~mantaray/+archive/stable">https://launchpad.net/~mantaray/+archive/stable</a> for a full list</p>
+<ul class="simple">
+<li>BulkExtractor</li>
+<li>ENT – Calculate Entropy</li>
+<li>KML from JPG EXIF Data</li>
+<li>fdupes</li>
+<li>EXIF Tool</li>
+<li>Foremost</li>
+<li>Jumplist Parser</li>
+<li>Sleuth Kit tools</li>
+<li>Regripper</li>
+<li>Log2Timeline</li>
+<li>Volatility</li>
+</ul>
+</div>
+<div class="section" id="installation-of-mantaray">
+<h1>Installation of MantaRay<a class="headerlink" href="#installation-of-mantaray" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ppa">
+<h2>PPA:<a class="headerlink" href="#ppa" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><pre>$ sudo apt-add-repository ppa:mantaray/stable
+$ sudo apt-add-repository ppa:sift/stable
+$ sudo apt-get update &amp;&amp; sudo apt-get upgrade -y
+$ sudo apt-get install mantaray</pre>
+</div>
+</div>
+<div class="section" id="source-from-ppa">
+<h2>Source from PPA:<a class="headerlink" href="#source-from-ppa" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><pre>$ sudo apt-add-repository ppa:mantaray/stable
+$ apt-get source mantaray</pre>
+</div>
+</div>
+<div class="section" id="github">
+<h2>GitHub:<a class="headerlink" href="#github" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><pre>$ git clone https://github.com/mantarayforensics/mantaray.git
+$ cd mantaray</pre>
+</div>
+<p>Follow PPA directions to install dependencies</p>
+</div>
+</div>
+<div class="section" id="how-to-run-mantaray">
+<h1>How To Run MantaRay<a class="headerlink" href="#how-to-run-mantaray" title="Permalink to this headline">¶</a></h1>
+<p>From command line (as user with sudo privileges) in PPA:</p>
+<div class="highlight-python"><pre>$ sudo mantaray</pre>
+</div>
+<p>A popup window should appear. Pressing continue will begin running the
+script.</p>
+</div>
+<div class="section" id="check-for-updates">
+<h1>Check For Updates<a class="headerlink" href="#check-for-updates" title="Permalink to this headline">¶</a></h1>
+<p>Using apt-get:</p>
+<div class="highlight-python"><pre>$ sudo apt-get update &amp;&amp; sudo apt-get upgrade</pre>
+</div>
+<p>Using mantaray-updater:</p>
+<div class="highlight-python"><pre>$ sudo mantaray-updater</pre>
+</div>
+<p>GitHub:</p>
+<div class="highlight-python"><pre>$ git pull origin master</pre>
+</div>
+</div>
+<div class="section" id="errors-and-bugs">
+<h1>Errors and Bugs<a class="headerlink" href="#errors-and-bugs" title="Permalink to this headline">¶</a></h1>
+<p>If MantaRay crashes, please re-run it in debug mode and send a
+screenshot of the crash along with any other details you can provide to
+the MantaRay Forum <a class="reference external" href="http://mantarayforensics.com/forums/">http://mantarayforensics.com/forums/</a> or report to our
+GitHub <a class="reference external" href="https://github.com/mantarayforensics/mantaray/issues">https://github.com/mantarayforensics/mantaray/issues</a></p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">MantaRay Forensics</a></li>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li><a class="reference internal" href="#installation-of-mantaray">Installation of MantaRay</a><ul>
+<li><a class="reference internal" href="#ppa">PPA:</a></li>
+<li><a class="reference internal" href="#source-from-ppa">Source from PPA:</a></li>
+<li><a class="reference internal" href="#github">GitHub:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-run-mantaray">How To Run MantaRay</a></li>
+<li><a class="reference internal" href="#check-for-updates">Check For Updates</a></li>
+<li><a class="reference internal" href="#errors-and-bugs">Errors and Bugs</a></li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/README.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="index.html">MantaRay 1.3.8 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Douglas Koster, Kevin Murphy, Chapin Bryce.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
