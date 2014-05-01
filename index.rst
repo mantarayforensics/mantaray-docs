@@ -1,20 +1,11 @@
-Welcome to MantaRay's documentation!
-====================================
-
-Contents:
+MantaRay Documentation
+======================
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   about
+   contributors
 
 MantaRay Forensics
 ==================
@@ -26,6 +17,7 @@ ManTech Triage and Analysis System, Forensics Workflow Automation Suite
    :alt: alt tag
 
    alt tag
+
 Overview
 ========
 
@@ -122,6 +114,5 @@ Errors and Bugs
 ===============
 
 If MantaRay crashes, please re-run it in debug mode and send a
-screenshot of the crash along with any other details you can provide to
-the MantaRay Forum http://mantarayforensics.com/forums/ or report to our
+screenshot of the crash along with any other details you can report to our
 GitHub https://github.com/mantarayforensics/mantaray/issues
