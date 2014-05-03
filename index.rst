@@ -2,9 +2,10 @@ MantaRay Documentation
 ======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    about
+   careers
    contributors
 
 MantaRay Forensics
@@ -12,11 +13,14 @@ MantaRay Forensics
 
 ManTech Triage and Analysis System, Forensics Workflow Automation Suite
 
-.. figure:: https://raw.githubusercontent.com/mantarayforensics/mantaray/master/usr/share/images/Mantaray_Logo_Template_Full_Screen.gif
+.. figure:: images/Mantaray_Logo_Template_Full_Screen.gif
    :align: center
-   :alt: alt tag
+   :alt: MantaRay Wallpaper
 
-   alt tag
+.. toctree::
+   :maxdepth: 1
+   
+   index
 
 Overview
 ========
